@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Coffee Shop Website</title>
+
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Coppee</a>
+
+      <ul class="menu">
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="nav-btns">
+        <a href="#" class="btn">Sign in</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h5 data-aos="fade-right" data-aos-duration="1400">
+          A coffee a day keeps the grumpy away.
+        </h5>
+        <h1 data-aos="fade-left" data-aos-duration="1400" data-aos-delay="200">
+          - But first, coffee.
+        </h1>
+        <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
+          Why, yes, I could start my day without coffee. But I like being able
+          to remember things like how to say words and put on pants.
+        </p>
+
+        <div class="hero-btns">
+          <a
+            href="#"
+            class="btn"
+            data-aos="flip-down"
+            data-aos-duration="1400"
+            data-aos-delay="400"
+            >Order now</a
+          >
+          <a
+            href="#"
+            class="btn btn-filled"
+            data-aos="flip-down"
+            data-aos-duration="1400"
+            data-aos-delay="400"
+            >Catalogue</a
+          >
+        </div>
+      </div>
+      <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="1400">
+        <img src="hero-img.png" alt="" />
+      </div>
+    </section>
+
+    <div class="social-icons">
+      <a
+        href="#"
+        style="--i: 0"
+        data-aos="zoom-in"
+        data-aos-duration="1400"
+        data-aos-delay="600"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a
+        href="#"
+        style="--i: 1"
+        data-aos="zoom-in"
+        data-aos-duration="1400"
+        data-aos-delay="700"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        href="#"
+        style="--i: 2"
+        data-aos="zoom-in"
+        data-aos-duration="1400"
+        data-aos-delay="800"
+        ><i class="fab fa-youtube"></i
+      ></a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        offset: 1,
+      });
+    </script>
+  </body>
+</html>
